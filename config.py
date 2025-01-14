@@ -2,14 +2,14 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7016950483:AAGutigXxaZmbvZSy0NJqx_vISfJuEUg_Pk")
-APP_ID = int(os.environ.get("APP_ID", "24314601"))
-API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002010704094"))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8191103559:AAEgESzX7D181JR9VPQtjV674EVY-KXuNCY")
+APP_ID = int(os.environ.get("APP_ID", "1736204"))
+API_HASH = os.environ.get("API_HASH", "890d40e0f91a4de32dec2965444b2cbe")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002347173260"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://22duddududdu:22duddududdu@cluster0.acjczor.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://herostore:herostore@cluster0.ar695.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "herostore")
 
 
 
